@@ -1,0 +1,92 @@
+.container {
+    overflow: hidden;
+    background-color: #ff1a1a;
+    font-family: Arial;
+}
+
+.container a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;transition: all 0.7s ease 0s;
+}
+
+.drpdwn {
+    float: left;
+    overflow: hidden;
+}
+.drpdwn1 {
+    float: left;
+    overflow: hidden;
+}
+.drpdwn2 {
+    float: left;
+    overflow: hidden;
+}
+.drpdwn .drpbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;transition: all 0.7s ease 0s;
+}
+.drpdwn1 .drpbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;transition: all 0.7s ease 0s;
+}
+.drpdwn2 .drpbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;transition: all 0.5s ease 0s;
+}
+
+.container a:hover, .drpdwn:hover .drpbtn {
+    background-color: #1a1aff;
+}
+.container a:hover, .drpdwn1:hover .drpbtn {
+    background-color: #1a1aff;
+}
+.container a:hover, .drpdwn2:hover .drpbtn {
+    background-color: #1a1aff;
+}
+.dropdwn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdwn-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdwn-content a:hover {
+    background-color: #99ccff;
+}
+
+.drpdwn:hover .dropdwn-content {
+    display: block;
+}
+.drpdwn1:hover .dropdwn-content {
+    display: block;
+}
+.drpdwn2:hover .dropdwn-content {
+    display: block;
+}
